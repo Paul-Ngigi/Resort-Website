@@ -6,3 +6,33 @@
     text-decoration: none;
 }
 
+/* Navigation */
+.navbar{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccc;
+}
+.navbar .nav-brand{
+    font-size: 32px;
+    font-weight: 700;
+    padding: 25px;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    padding: 25px;
+}
+.navbar li{
+    margin-left: 12px;
+}
+a:link, a:visited{
+    background-color: aqua;
+    padding: 13px;
+}
+a:hover, a:active{
+    background-color: black;
+    color: white;
+    padding: 13px;
+}
+/* Navigation End */
