@@ -82,3 +82,41 @@ a:hover, a:active{
     float: right;
 }
 /* Images End */
+
+/* Main */
+.accomodation{
+    text-align: center;
+    line-height: 45px;
+    border: 2px solid black;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    background-color: grey;
+    color: white;
+}
+.accomodation h1{
+    font-size: 45px;
+    font-weight: 900;
+}
+.accomodation p{
+    font-size: 20px;
+}
+.accomodation p .culture{
+    color: skyblue;
+}
+/* Main End */
+
+/* Accomodation Images */
+.accomodation-images{
+    border: 2px solid black;
+    margin-top: 2%;
+}
+.accomodation-images img{
+    height: 500px;
+    padding: auto;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
+/* Accomodation Images End */
