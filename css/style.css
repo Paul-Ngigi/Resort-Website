@@ -5,7 +5,6 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-
 /* Navigation */
 .navbar{
     font-family: 'Ubuntu', sans-serif;
@@ -42,7 +41,7 @@ a:hover, a:active{
 .intro{
     text-align: center;
     line-height: 45px;
-    margin-top: 10%;
+    margin-top: 5%;
     box-sizing: border-box;
     border: 2px solid black;
     margin-left: 15%;
@@ -65,5 +64,21 @@ a:hover, a:active{
     font-weight: bolder;
     font-style: italic;
 }
-
 /* Intro End */
+
+/* Images */
+.images{
+    border: 2px solid black;
+    margin-top: 2%;
+}
+.images .image-1{
+    height: 500px;
+    width: 50%;
+    float: left;
+}
+.images .image-2{
+    height: 500px;
+    width: 50%;
+    float: right;
+}
+/* Images End */
