@@ -5,12 +5,16 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+body{
+    background-color: hsla(0, 100%, 90%, 0.3);;
+}
 /* Navigation */
 .navbar{
     font-family: 'Ubuntu', sans-serif;
     display: flex;
     justify-content: space-between;
-    background-color: #ccc;
+    background-color: skyblue;
+    padding: 20px;
 }
 .navbar .nav-brand{
     font-size: 32px;
@@ -28,12 +32,12 @@
 a:link, a:visited{
     background-color: black;
     color: white;
-    padding: 13px;
+    padding: 15px;
 }
 a:hover, a:active{
-    background-color: aqua;
+    background-color: red;
     color: black;
-    padding: 13px;
+    padding: 15px;
 }
 /* Navigation End */
 
@@ -48,10 +52,10 @@ a:hover, a:active{
     margin-right: 15%;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: chartreuse;
+    background-color: #ccc;
 }
 .intro h1{
-    color: mediumvioletred;
+    color: gold;
     font-size: 45px;
     font-weight: 900;
     text-decoration:  underline;
@@ -59,10 +63,12 @@ a:hover, a:active{
 .intro p{
     font-size: 25px;
     font-style: normal;
+    color: white;
 }
 .intro p .island{
     font-weight: bolder;
     font-style: italic;
+    color: black;
 }
 /* Intro End */
 
@@ -117,6 +123,29 @@ a:hover, a:active{
     margin-right: 15px;
     margin-left: 15px;
 }
-
-
 /* Accomodation Images End */
+
+
+/* Activities */
+.activities-intro{
+    text-align: center;
+    font-size: 38px;
+    color: blue;
+    text-decoration: underline;
+    background-color: gray;
+    padding: 20px;
+}
+.diving{
+    line-height: 40px;
+    border: 2px solid black;
+    margin-top: 0%;
+    padding: 25px;
+    background-color: skyblue;
+    float: left;
+}
+.activities h1{
+    color: deeppink;
+    font-size: 45px;
+}
+/* Activities End */
+
