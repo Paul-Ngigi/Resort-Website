@@ -123,6 +123,29 @@ a:hover, a:active{
     margin-right: 15px;
     margin-left: 15px;
 }
-
-
 /* Accomodation Images End */
+
+
+/* Activities */
+.activities-intro{
+    text-align: center;
+    font-size: 38px;
+    color: blue;
+    text-decoration: underline;
+    background-color: gray;
+    padding: 20px;
+}
+.diving{
+    line-height: 40px;
+    border: 2px solid black;
+    margin-top: 0%;
+    padding: 25px;
+    background-color: skyblue;
+    float: left;
+}
+.activities h1{
+    color: deeppink;
+    font-size: 45px;
+}
+/* Activities End */
+
