@@ -27,12 +27,43 @@
     margin-left: 12px;
 }
 a:link, a:visited{
-    background-color: aqua;
-    padding: 13px;
-}
-a:hover, a:active{
     background-color: black;
     color: white;
     padding: 13px;
 }
+a:hover, a:active{
+    background-color: aqua;
+    color: black;
+    padding: 13px;
+}
 /* Navigation End */
+
+/* Intro */
+.intro{
+    text-align: center;
+    line-height: 45px;
+    margin-top: 10%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: chartreuse;
+}
+.intro h1{
+    color: mediumvioletred;
+    font-size: 45px;
+    font-weight: 900;
+    text-decoration:  underline;
+}
+.intro p{
+    font-size: 25px;
+    font-style: normal;
+}
+.intro p .island{
+    font-weight: bolder;
+    font-style: italic;
+}
+
+/* Intro End */
