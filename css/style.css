@@ -143,9 +143,24 @@ a:hover, a:active{
     background-color: skyblue;
     float: left;
 }
-.activities h1{
+.diving h2{
     color: deeppink;
     font-size: 45px;
+}
+.watersports{
+    line-height: 40px;
+    border: 2px solid black;
+    margin-top: 0%;
+    padding: 25px;
+    background-color: skyblue;
+    
+}
+.watersports h2{
+    color: deeppink;
+    font-size: 45px;
+}
+.watersports ul li{
+    list-style: none;
 }
 /* Activities End */
 
